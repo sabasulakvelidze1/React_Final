@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import About from "./pages/About";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
@@ -15,6 +15,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
